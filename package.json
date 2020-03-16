@@ -1,0 +1,48 @@
+{
+  "name": "fucesa.org",
+  "version": "1.0.0",
+  "description": "Fucesa Open Source - Arthopode Collection Wiki",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "format": "prettier --parser typescript --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.ts*\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesargdm/fucesa.org.git"
+  },
+  "author": "cesargdm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cesargdm/fucesa.org/issues"
+  },
+  "homepage": "https://github.com/cesargdm/fucesa.org#readme",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.7",
+    "gatsby": "2.19.45",
+    "gatsby-image": "2.2.44",
+    "gatsby-plugin-manifest": "2.2.48",
+    "gatsby-plugin-offline": "3.0.41",
+    "gatsby-plugin-react-helmet": "3.1.24",
+    "gatsby-plugin-remove-trailing-slashes": "2.1.24",
+    "gatsby-plugin-sharp": "2.4.13",
+    "gatsby-plugin-styled-components": "^3.1.21",
+    "gatsby-plugin-typescript": "2.2.5",
+    "gatsby-source-filesystem": "2.1.56",
+    "gatsby-transformer-sharp": "^2.3.19",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
+    "react-helmet": "^5.2.1",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.23",
+    "@types/react-helmet": "^5.0.15",
+    "@types/styled-components": "^5.0.1",
+    "eslint-config-nure": "~0.0.8",
+    "prettier-config-nure": "~0.0.1",
+    "tslint": "^6.1.0",
+    "typescript": "^3.8.3"
+  }
+}
