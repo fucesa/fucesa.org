@@ -20,7 +20,7 @@
   "homepage": "https://github.com/cesargdm/fucesa.org#readme",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
-    "gatsby": "2.19.45",
+    "gatsby": "4.25.7",
     "gatsby-image": "2.2.44",
     "gatsby-plugin-manifest": "2.2.48",
     "gatsby-plugin-offline": "3.0.41",
